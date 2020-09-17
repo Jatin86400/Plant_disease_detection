@@ -1,0 +1,14 @@
+{
+    "modes": ["train","val","test"],
+    "model":{
+        "name": "resnet34",
+        "learning_rate": 0.001,
+        "optimizer": "SGD",
+        "num_epochs": 20,
+        "model_dir": "/home/jatin-pg/MTP/saved_models/resnet34tl",
+        "num_classes": 38        
+    },
+    "data":{
+        "type": "segmented"
+    }
+}
